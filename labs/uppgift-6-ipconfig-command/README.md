@@ -26,7 +26,4 @@ Use the `ipconfig` command to inspect host network settings and troubleshoot con
 ## ✅ Result
 The incorrect configuration was identified and corrected, restoring successful communication.
 
----
 
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
