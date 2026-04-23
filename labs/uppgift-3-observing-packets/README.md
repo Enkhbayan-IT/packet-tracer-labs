@@ -26,7 +26,4 @@ Observe how packets travel across the network and use `tracert` to understand pa
 ## ✅ Result
 Packet flow was successfully analyzed and `tracert` was used to understand the route taken through the network.
 
----
 
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
