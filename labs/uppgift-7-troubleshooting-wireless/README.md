@@ -29,7 +29,4 @@ Troubleshoot wireless connectivity issues by checking addressing, DNS, and wirel
 ## ✅ Result
 The root cause of the wireless connectivity issue was identified and corrected, restoring successful access.
 
----
 
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
