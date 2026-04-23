@@ -31,7 +31,4 @@ Learn the basics of Cisco Packet Tracer by creating a simple topology and observ
 The devices were successfully connected and communication was verified using ping.  
 ARP and ICMP packet flow was observed in Packet Tracer simulation mode.
 
----
 
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
