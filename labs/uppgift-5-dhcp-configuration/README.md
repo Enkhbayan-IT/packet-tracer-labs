@@ -27,8 +27,3 @@ Configure DHCP on a multi-function network device and verify automatic IP assign
 
 ## ✅ Result
 Clients successfully received IP addresses from DHCP and network communication was verified.
-
----
-
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
