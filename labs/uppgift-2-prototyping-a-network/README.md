@@ -26,7 +26,3 @@ Build a simple local area network (LAN) and verify connectivity between hosts.
 ## ✅ Result
 The network was successfully configured and both PCs were able to communicate with each other.
 
----
-
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
