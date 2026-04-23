@@ -24,7 +24,3 @@ Verify connectivity to a web server and access it through a browser using its IP
 ## ✅ Result
 The web server was reachable and the client successfully connected using the server’s IP address.
 
----
-
-## 📸 Notes
-Screenshots for this lab can be stored in the `screenshots/` folder.
