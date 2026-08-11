@@ -1,0 +1,41 @@
+! ============================================
+! Cisco Router R1 - Basic Configuration
+! Lab: Basic Router Configuration
+! ============================================
+
+enable
+configure terminal
+
+! Basic Router Configuration
+hostname R1
+no ip domain-lookup
+enable secret enpass
+service password-encryption
+banner motd #ACCESS TO THIS ROUTER IS NOT ALLOWED!#
+
+! Console Configuration
+line console 0
+ password conpass
+ login
+ logging synchronous
+ exit
+
+! VTY / Telnet Configuration
+line vty 0 15
+ password vtypass
+ login
+ transport input telnet
+ exit
+
+end
+
+! Set Router Clock
+clock set 19:52:00 11 Aug 2026
+
+! Verification Commands
+show clock
+show running-config
+show startup-config
+
+! Save Configuration
+copy running-config startup-config
