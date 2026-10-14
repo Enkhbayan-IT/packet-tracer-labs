@@ -104,6 +104,8 @@ The DHCP server provides automatic IPv4 configuration for client devices.
 
 DHCP relay was configured on R1, and a client successfully obtained an IP address from the DHCP server.
 
+![DHCP Verification](screenshots/dhcp-verification.png)
+
 ### DNS
 
 The DNS server is assigned the address `192.168.1.5`.
@@ -116,6 +118,8 @@ The lab includes the internal domain `jensen.se` and named services such as:
 - `ftp.jensen.se`
 
 DNS configuration and verification evidence are included in the repository.
+
+![DNS Verification](screenshots/dns-verification.png)
 
 ### HTTP
 
