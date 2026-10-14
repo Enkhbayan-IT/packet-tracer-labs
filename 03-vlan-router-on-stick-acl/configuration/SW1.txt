@@ -1,0 +1,27 @@
+! Lab 03 - SW1 VLAN Segmentation and 802.1Q Trunk
+! Reference configuration; verify actual port assignments against Packet Tracer
+hostname SW1
+!
+vlan 10
+ name HR
+!
+vlan 20
+ name IT
+!
+interface range FastEthernet0/1 - 3
+ description HR_VLAN10_ACCESS
+ switchport mode access
+ switchport access vlan 10
+!
+interface range FastEthernet0/4 - 6
+ description IT_VLAN20_ACCESS
+ switchport mode access
+ switchport access vlan 20
+!
+interface FastEthernet0/24
+ description TRUNK_TO_R1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+!
+end
