@@ -117,23 +117,16 @@ tracert 192.168.3.10
 
 **First PC-to-PC ping lost one packet:** The captured initial test returned 3 out of 4 replies. ARP resolution is one possible cause in Packet Tracer, but the exact cause was not independently confirmed. Traceroute subsequently reached PC2.
 
-## Files
+## Project Artifacts
 
-```text
-02-dce-dte-static-routing/
-├── README.md
-├── 02-dce-dte-static-routing.pkt
-├── topology.png
-├── configs/
-│   ├── R1.txt
-│   └── R2.txt
-└── screenshots/
-    ├── interface-status.png
-    ├── routing-table.png
-    └── ping-traceroute.png
-```
+This README documents the lab design, configuration commands, and reported test results. The presence and contents of the Packet Tracer `.pkt` file, exported running configurations, and verification screenshots must be checked separately; the example artifact layout is not presented as a verified file inventory.
 
-> File names above describe the recommended repository structure. Add the corresponding Packet Tracer file and screenshots before publishing.
+Recommended supporting evidence:
+
+- Packet Tracer project (`.pkt`)
+- R1 and R2 running-configuration exports
+- Interface status and routing-table screenshots
+- End-to-end ping and traceroute screenshots
 
 ## Key Takeaways
 
