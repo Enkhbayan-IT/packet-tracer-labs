@@ -1,0 +1,22 @@
+! Lab 02 - R1 sanitized configuration
+! Cisco Packet Tracer - DCE/DTE and Static Routing
+! Documentation configuration; not a full running-config export.
+!
+hostname R1
+no ip domain-lookup
+!
+interface FastEthernet0/0
+ description Connected to LAN1
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+!
+interface Serial0/1/0
+ description Connected to R2 - DCE
+ ip address 192.168.2.1 255.255.255.0
+ clock rate 2000000
+ no shutdown
+!
+ip route 192.168.3.0 255.255.255.0 192.168.2.2
+!
+! Passwords, console/VTY authentication, and banner intentionally omitted.
+! Verify interface DCE role and actual running-config before applying.
